@@ -1,8 +1,39 @@
-# React + Vite
+# AI Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple AI chat application built using React. The app allows users to interact with an AI model by sending messages and receiving responses in real-time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User-Friendly Interface**: A clean and intuitive UI for seamless interaction.
+- **Real-Time Chat**: Send messages to the AI and receive responses without page reloads.
+- **Loading State**: Visual feedback during the API call.
+- **Error Handling**: Alerts for any issues that arise during API communication.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Axios**: Promise-based HTTP client for the browser and Node.js.
+- **CSS**: For styling the components.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or above)
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ai-chat-app.git
+   cd ai-chat-app
+2. Install the dependencies:
+   npm install
+3. Create a .env file in the root directory and add your API key:
+  REACT_APP_API_KEY=YOUR_API_KEY
+4. Replace YOUR_API_KEY in the App.js file with your actual API key or ensure to use process.env.REACT_APP_API_KEY to access it from the environment variables.
+
+5. To start the dev server, run
+  npm start
+  The application will open in your default web browser at http://localhost:3000.  
