@@ -26,7 +26,7 @@ This is a simple AI chat application built using React. The app allows users to 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-chat-app.git
+   git clone https://github.com/Tanishque03/ai-chat-app.git
    cd ai-chat-app
 2. Install the dependencies:
    ```bash
